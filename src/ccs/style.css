@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+}
+.body{
+  background-color: #EFF4FF;
+}
+
+/*Левое меню*/
+.menu {
+  position: fixed;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-left{
+  display: flex;
+  flex-direction: column;
+}
+
+.menu.open {
+  transform: translateX(-419px); /* Исчезновение левого меню */
+}
+/*Левое меню_Кнопка*/
+.menu-btn {
+  position: fixed;
+  top: 20px;
+  left: 419px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-btn.open {
+  transform: translateX(-419px); /* Движение кнопки */
+}
+
+.menu-btn__box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7398F7;
+  width: 35px;
+  height: 67px;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+/*Левое меню_Кнопка_Иконка стрелочки*/
+.menu-btn__box_icons {
+  font-size: 25px;
+  rotate: 0px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.menu-btn__box_icons.rotate-180 {
+  transform: rotate(180deg);
+}
+
+
+/*Левое меню_Верхний край*/
+.menu-left__top{
+  background-color: #3E3BD6;
+  width: 419px;
+  height: 133px;
+}
+/*Поисковая система*/
+.menu-left__top__search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 17px;
+}
+input[type="search"] {
+  width: 333px;
+  font-family: Montserrat, Arial;
+  padding: 5.6px 12px 5px 12px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  background-color: #EFF4FF;
+  font-size: 15px;
+  outline: none;
+}
+button[type="submit"] {
+  display: flex;
+  width: 48px;
+  padding: 2px 11px 2px 12px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #7398F7;
+  cursor: pointer;
+}
+.submit__search_icons {
+  font-size: 25px;
+  justify-self: flex-end;
+}
+
+/*Кемеревоский Государственный Университет*/
+.menu-left__top__text{
+  display: flex;
+  padding-top: 17px;
+  padding-left: 18px;
+}
+.menu-left__top__text > h1{
+  font-size: 20px;
+  font-family: Montserrat, Arial;
+  font: bold;
+  color: #EFF4FF;
+}
+
+/*Левое меню_Нижний край*/
+.menu-left__button{
+  background-color: #7398F7;
+  width: 419px;
+  height: 100vh;
+}
+
