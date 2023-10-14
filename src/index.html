@@ -39,7 +39,7 @@
 
       </div>
       <div class="map__frame_2" name="map__frame_2">
-        <img class="map__frame_22" name="map__frame_22" src="img/22.svg" alt="22">
+        <img id="zoomedImage" class="map__frame_22" name="map__frame_22" src="img/22.svg" alt="22">
       </div>
       <div class="map__frame_3">
 
@@ -77,10 +77,10 @@
   <div class="scale-bth">
     <div class="scale-bth__box">
       <div class="scale-bth__box__plus">
-        <iconify-icon class="scale-bth__box__plus__icons" icon="bx:plus"></iconify-icon>
+        <iconify-icon class="scale-bth__box__plus__icons" icon="bx:plus" onclick="zoom()"></iconify-icon>
       </div>
       <div class="scale-bth__box__minus">
-        <iconify-icon class="scale-bth__box__minus__icons" icon="bx:minus"></iconify-icon>
+        <iconify-icon class="scale-bth__box__minus__icons" icon="bx:minus" onclick="notzum()"></iconify-icon>
       </div>
     </div>
   </div>
@@ -92,5 +92,6 @@
   </div>
 </div>
 <script src="js/script.js"></script>
+<script src="js/zoom-function.js"></script>
 </body>
 </ht
