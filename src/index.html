@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="ccs/style.css">
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    <link rel="shurtcut icon" href="icons/favicon/favicon.ico">
-    <title>Карта Общего Доступа КемГУ</title>
+    <link rel="stylesheet" href="ccs/style.css"><!--Путь к основному css-->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script> <!--Добавление иконок с сайта-->
+    <link rel="shurtcut icon" href="icons/favicon/favicon.ico"> <!--Иконка на панели сайта-->
+    <title>Карта Общего Доступа КемГУ</title> <!--Название на панели сайта-->
     <meta name="discription" content="">
 </head>
 
 <body>
 <div class="site">
-  <div class="menu" >
+  <div class="menu">
     <!-- Левое меню -->
     <div class="menu-left">
       <!-- Верхнее меню, включает в себя поиск -->
@@ -30,21 +30,58 @@
         </div>
       </div> 
       <!--Нижнее меню-->
-      <div class="menu-left__button"></div>
+      <div class="menu-left__bottom"></div>
     </div>
   </div>
-  <div class="map">
-    <div class="map__frame_1">
+  <div class="right">
+    <div class="map" name="map">
+      <div class="map__frame_1">
 
-    </div>
-    <div class="map__frame_2">
-      <img class="map__frame_22" src="img/22.svg" alt="22">
-    </div>
-    <div class="map__frame_3">
+      </div>
+      <div class="map__frame_2" name="map__frame_2">
+        <img class="map__frame_22" name="map__frame_22" src="img/22.svg" alt="22">
+      </div>
+      <div class="map__frame_3">
 
-    </div>
-    <div class="map__frame_5">
+      </div>
+      <div class="map__frame_5">
 
+      </div>
+    </div>
+  </div>
+</div>
+<!--Кнопки карты-->
+<div clas="bth">
+  <div class="frame-bth">
+    <div class="frame-bth__box">
+      <div class="frame-bth__box__blockHome">
+        <iconify-icon class="frame-bth__box__blockHome__icons" icon="bx:home-alt"></iconify-icon>
+      </div>
+      <div class="frame-bth__box__block5">
+        <p>5</p>
+      </div>
+      <div class="frame-bth__box__block3">
+        <p>3</p>
+      </div>
+      <div class="frame-bth__box__block2">
+        <p>2</p>
+      </div>
+      <div class="frame-bth__box__block1">
+        <p>1</p>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="menuLeft-bth">
+    <div class="menuLeft-bth__box"></div>
+  </div> -->
+  <div class="scale-bth">
+    <div class="scale-bth__box">
+      <div class="scale-bth__box__plus">
+        <iconify-icon class="scale-bth__box__plus__icons" icon="bx:plus"></iconify-icon>
+      </div>
+      <div class="scale-bth__box__minus">
+        <iconify-icon class="scale-bth__box__minus__icons" icon="bx:minus"></iconify-icon>
+      </div>
     </div>
   </div>
 </div>
@@ -54,7 +91,6 @@
     <iconify-icon class="menu-btn__box_icons" icon="bx:chevron-left"></iconify-icon>
   </div>
 </div>
-
 <script src="js/script.js"></script>
 </body>
 </ht
