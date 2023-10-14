@@ -10,7 +10,8 @@ body{
 
 /*Главное окно сайта*/
 .site {
-  display: flex; 
+  display: flex;
+  height: 100vh;
 }
 /**********************************************************************/
 
@@ -149,15 +150,24 @@ button[type="submit"] {
   justify-self: center;
   align-self: center;
   transition: transform 0.3s ease-in-out;
-  width: 100%;
-  height: 100%
 }
 .map.open {
   transform: translateX(-209.5px); /*Перемещает карту в левую сторону, чтобы скомпенсировать центральное расположение*/
 }
-.map__frame_22 { 
-  width: 99%;
-  height: 99.4vh;
+
+.map__frame_2 {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.map__frame_22 {
+  margin: auto;
+
+  overflow: hidden;
+  max-width: 100vh;
 }
 
 /**********************************************************************/
