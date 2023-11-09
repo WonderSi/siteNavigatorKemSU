@@ -1,0 +1,76 @@
+/*Правая часть_Карта*/
+.right {
+    width: 100%; /*Растягивает карту на всю правую ширину*/
+    user-select: none;
+}
+
+.map {
+    padding: 0 0 0 10px;
+    justify-self: center;
+    align-self: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.map.open {
+    transform: translateX(-209.5px); /*Перемещает карту в левую сторону, чтобы скомпенсировать центральное расположение*/
+}
+  
+.map{
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+  
+.map__frame_HomeStart{
+    margin: auto;
+    overflow: hidden;
+    max-width: 100vh;
+    display: block;
+}
+
+.map__frame_31{
+    margin: auto;
+    overflow: hidden;
+    max-width: 60vh;
+    display: none;
+}
+.map__frame_32{
+    margin: auto;
+    overflow: hidden;
+    max-width: 60vh;
+    display: none;
+}
+.map__frame_33{
+    margin: auto;
+    overflow: hidden;
+    max-width: 60vh;
+    display: none;
+}
+.map__frame_34{
+    margin: auto;
+    overflow: hidden;
+    max-width: 60vh;
+    display: none;
+}
+.map__frame_35{
+    margin: auto;
+    overflow: hidden;
+    max-width: 60vh;
+    display: none;
+}
+.map__frame_36{
+    margin: auto;
+    overflow: hidden;
+    max-width: 60vh;
+    display: none;
+}
+
+.map__frame_22 {
+    margin: auto;
+    overflow: hidden;
+    max-width: 100vh;
+    display: none;
+}

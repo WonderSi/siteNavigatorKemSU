@@ -1,0 +1,60 @@
+<svg width="534" height="391" viewBox="0 0 534 391" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="89" height="30" transform="translate(160 162)" fill="white"/>
+<rect width="174" height="37" transform="translate(357 252)" fill="white"/>
+<g clip-path="url(#clip0_95_5)">
+<mask id="path-1-inside-1_95_5" fill="white">
+<path d="M249 289H272V388H249V289Z"/>
+</mask>
+<path d="M249 289H272V388H249V289Z" fill="white"/>
+<rect x="250.5" y="380.5" width="20" height="9" fill="#FF9999"/>
+<rect x="250.5" y="380.5" width="20" height="9" stroke="black"/>
+</g>
+<path d="M249 290H272V288H249V290Z" fill="black" mask="url(#path-1-inside-1_95_5)"/>
+<rect width="108" height="177" transform="translate(249 112)" fill="white"/>
+<rect width="51" height="110" transform="translate(249 2)" fill="#99FF99"/>
+<rect x="42.5" y="192.5" width="206" height="198" fill="#66CCFF"/>
+<rect x="42.5" y="192.5" width="206" height="198" stroke="black"/>
+<rect x="357.5" y="152.5" width="174" height="99" fill="#66CCFF"/>
+<rect x="357.5" y="152.5" width="174" height="99" stroke="black"/>
+<rect x="2.5" y="72.5" width="158" height="120" fill="#66CCFF"/>
+<rect x="2.5" y="72.5" width="158" height="120" stroke="black"/>
+<rect x="473.5" y="251.5" width="59" height="38" fill="#66CCFF"/>
+<rect x="473.5" y="251.5" width="59" height="38" stroke="black"/>
+<rect x="357.5" y="251.5" width="116" height="38" fill="#66CCFF"/>
+<rect x="357.5" y="251.5" width="116" height="38" stroke="black"/>
+<rect x="272.5" y="289.5" width="259" height="99" fill="#66CCFF"/>
+<rect x="272.5" y="289.5" width="259" height="99" stroke="black"/>
+<rect x="160.5" y="72.5" width="89" height="89" fill="#66CCFF"/>
+<rect x="160.5" y="72.5" width="89" height="89" stroke="black"/>
+<rect x="355.5" y="280.5" width="19" height="9" transform="rotate(-90 355.5 280.5)" fill="#FF9999"/>
+<rect x="355.5" y="280.5" width="19" height="9" transform="rotate(-90 355.5 280.5)" stroke="black"/>
+<rect x="303.5" y="287.5" width="19" height="9" fill="#FF9999"/>
+<rect x="303.5" y="287.5" width="19" height="9" stroke="black"/>
+<rect x="355.5" y="191.5" width="9" height="19" fill="#FF9999"/>
+<rect x="355.5" y="191.5" width="9" height="19" stroke="black"/>
+<rect x="222.5" y="163.5" width="9" height="19" transform="rotate(-90 222.5 163.5)" fill="#FF9999"/>
+<rect x="222.5" y="163.5" width="9" height="19" transform="rotate(-90 222.5 163.5)" stroke="black"/>
+<rect x="250.5" y="287.5" width="20" height="9" fill="#FF9999"/>
+<rect x="250.5" y="287.5" width="20" height="9" stroke="black"/>
+<rect x="489.5" y="287.5" width="19" height="9" fill="#FF9999"/>
+<rect x="489.5" y="287.5" width="19" height="9" stroke="black"/>
+<rect x="153.5" y="167.5" width="9" height="19" fill="#FF9999"/>
+<rect x="153.5" y="167.5" width="9" height="19" stroke="black"/>
+<rect width="3" height="109" transform="translate(299 3)" fill="black"/>
+<rect width="3" height="247" transform="matrix(0 -1 1 0 3 73)" fill="black"/>
+<rect width="3" height="58" transform="matrix(0 -1 1 0 302 112)" fill="black"/>
+<rect width="3" height="70" transform="translate(247)" fill="black"/>
+<rect width="3" height="52" transform="matrix(0 -1 1 0 250 3)" fill="black"/>
+<rect width="3" height="199" transform="translate(40 192)" fill="black"/>
+<rect width="3" height="238" transform="translate(531 150)" fill="black"/>
+<rect width="3" height="491" transform="matrix(0 -1 1 0 43 391)" fill="black"/>
+<rect width="3" height="171" transform="matrix(0 -1 1 0 360 153)" fill="black"/>
+<rect width="3" height="41" transform="translate(357 112)" fill="black"/>
+<rect width="3" height="122" transform="translate(0 70)" fill="black"/>
+<rect width="3" height="40" transform="matrix(0 -1 1 0 0 195)" fill="black"/>
+<defs>
+<clipPath id="clip0_95_5">
+<path d="M249 289H272V388H249V289Z" fill="white"/>
+</clipPath>
+</defs>
+</svg>

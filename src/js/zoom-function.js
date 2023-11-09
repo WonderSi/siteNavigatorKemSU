@@ -1,34 +1,55 @@
-const zoomedImage = document.getElementById('zoomedImage');
-var maxZoom = 0; // Объявляем maxZoom и инициализируем его значением 3
+const zoomedImage = document.getElementById('map');
+var maxZoom = 3; // Объявляем maxZoom и инициализируем его значением 3
 const currentWidth = parseFloat(zoomedImage.width);
 
-console.log(currentWidth)
-
 function zoom() {
-
-	if (maxZoom !== 3) { // Проверяем, что maxZoom не равен 5
-
+	if(maxZoom < 5) {
 		maxZoom += 1;
-
-		const currentWidth = parseFloat(zoomedImage.width);
-
-		zoomedImage.width = currentWidth + 200;
-
-		console.log("Ширина элемента: " + zoomedImage.width + " пикселей " + maxZoom);
+		if(maxZoom == 5){
+			zoomedImage.style.transform = "scale(1.4)";
+			zoomedImage.style.transition = "transform 0.25s ease";
+		}
+		if(maxZoom == 4){
+			zoomedImage.style.transform = "scale(1.2)";
+			zoomedImage.style.transition = "transform 0.25s ease";
+		}
+		if(maxZoom == 3){
+			zoomedImage.style.transform = "scale(1)";
+			zoomedImage.style.transition = "transform 0.25s ease";
+		}
+		if(maxZoom == 2){
+			zoomedImage.style.transform = "scale(0.8)";
+			zoomedImage.style.transition = "transform 0.25s ease";			
+		}
+		if(maxZoom == 1){
+			zoomedImage.style.transform = "scale(0.4)";
+			zoomedImage.style.transition = "transform 0.25s ease";			
+		}
 	}
 }
 
 function notzum() {
-
-	if (maxZoom !== 0) { // Проверяем, что maxZoom не равен 0
-
+	if(maxZoom > 1) {
 		maxZoom -= 1;
-
-		const currentWidth = parseFloat(zoomedImage.width);
-
-		zoomedImage.width = currentWidth - 200;
-
-		console.log("Ширина элемента: " + zoomedImage.width + " пикселей " + maxZoom);
+		if(maxZoom == 5){
+			zoomedImage.style.transform = "scale(1.4)";
+			zoomedImage.style.transition = "transform 0.25s ease";
+		}
+		if(maxZoom == 4){
+			zoomedImage.style.transform = "scale(1.2)";
+			zoomedImage.style.transition = "transform 0.25s ease";
+		}
+		if(maxZoom == 3){
+			zoomedImage.style.transform = "scale(1)";
+			zoomedImage.style.transition = "transform 0.25s ease";
+		}
+		if(maxZoom == 2){
+			zoomedImage.style.transform = "scale(0.8)";
+			zoomedImage.style.transition = "transform 0.25s ease";			
+		}
+		if(maxZoom == 1){
+			zoomedImage.style.transform = "scale(0.6)";
+			zoomedImage.style.transition = "transform 0.25s ease";			
+		}
 	}
-
 }

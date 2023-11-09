@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="ccs/style.css"><!--Путь к основному css-->
+    <link rel="stylesheet" href="ccs/left-menu.css"><!--Путь к дополнительному css. Оформление левого части сайта - меню-->
+    <link rel="stylesheet" href="ccs/right-map.css"><!--Путь к дополнительному css. Оформление правой части сайта - карта-->
+    <link rel="stylesheet" href="ccs/right-bth.css"><!--Путь к дополнительному css. Оформление правой части сайта - кнопки-->
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script> <!--Добавление иконок с сайта-->
     <link rel="shurtcut icon" href="icons/favicon/favicon.ico"> <!--Иконка на панели сайта-->
     <title>Карта Общего Доступа КемГУ</title> <!--Название на панели сайта-->
@@ -34,18 +37,32 @@
     </div>
   </div>
   <div class="right">
-    <div class="map" name="map">
-      <div class="map__frame_1">
-
-      </div>
-      <div class="map__frame_2" name="map__frame_2">
-        <img id="zoomedImage" class="map__frame_22" name="map__frame_22" src="img/22.svg" alt="22">
-      </div>
-      <div class="map__frame_3">
-
-      </div>
-      <div class="map__frame_5">
-
+    <div class="map">
+      <div id="map"> <!--Zoom фактор все карт-->
+        <div class="map_frame_Home">
+          <img class="map__frame_HomeStart" id="map__frame_HomeStart" src="img/mapHome.svg" alt="">
+        </div>
+  
+        <div class="map__frame_5">
+      
+        </div>
+  
+        <div class="map__frame_3">
+          <img class="map__frame_31" id="map__frame_31" src="img/frame3floor1.svg" alt="">
+          <img class="map__frame_32" id="map__frame_32" src="img/frame3floor2.svg" alt="">
+          <img class="map__frame_33" id="map__frame_33" src="img/frame3floor3.svg" alt="">
+          <img class="map__frame_34" id="map__frame_34" src="img/frame3floor4.svg" alt="">
+          <img class="map__frame_35" id="map__frame_35" src="img/frame3floor5.svg" alt="">
+          <img class="map__frame_36" id="map__frame_36" src="img/frame3floor6.svg" alt="">
+        </div>
+  
+        <div class="map__frame_2" id = "map__frame_2">
+          <img class="map__frame_22" id="map__frame_22" src="img/22.svg" alt="">
+        </div>
+  
+        <div class="map__frame_1">
+  
+        </div>
       </div>
     </div>
   </div>
@@ -54,20 +71,51 @@
 <div clas="bth">
   <div class="frame-bth">
     <div class="frame-bth__box">
-      <div class="frame-bth__box__blockHome">
+      <button class="frame-bth__box__blockHome" id="frame-bth__box__blockHome">
         <iconify-icon class="frame-bth__box__blockHome__icons" icon="bx:home-alt"></iconify-icon>
+      </button>
+      <div class="frame__box__block5">
+        <button class="frame-bth__box__block5" id="frame-bth__box__block5">
+          <p>5</p>
+          <div class="frame-bth__box__block5-content">
+            <div> 1 Этаж </div>
+          </div>
+        </button>
       </div>
-      <div class="frame-bth__box__block5">
-        <p>5</p>
+      <div class="frame__box__block3">
+        <button class="frame-bth__box__block3">
+          <p>3</p>
+          <div class="frame-bth__box__block3-content">
+            <div id="frame-bth__box__block31" href=""> 1 Этаж </div>
+            <div id="frame-bth__box__block32" href=""> 2 Этаж </div>
+            <div id="frame-bth__box__block33" href=""> 3 Этаж </div>
+            <div id="frame-bth__box__block34" href=""> 4 Этаж </div>
+            <div id="frame-bth__box__block35" href=""> 5 Этаж </div>
+            <div id="frame-bth__box__block36" href=""> 6 Этаж </div>
+          </div>
+        </button>
       </div>
-      <div class="frame-bth__box__block3">
-        <p>3</p>
+      <div class="frame__box__block2">
+        <button class="frame-bth__box__block2">
+          <p>2</p>
+          <div class="frame-bth__box__block2-content">
+            <a href=""> 1 Этаж </a>
+            <a href=""> 2 Этаж </a>
+            <a href=""> 3 Этаж </a>
+            <a href=""> 4 Этаж </a>
+          </div>
+        </button>
       </div>
-      <div class="frame-bth__box__block2">
-        <p>2</p>
-      </div>
-      <div class="frame-bth__box__block1">
-        <p>1</p>
+      <div class="frame__box__block1">
+        <button class="frame-bth__box__block1">
+          <p>1</p>
+          <div class="frame-bth__box__block1-content">
+            <a href=""> 1 Этаж </a>
+            <a href=""> 2 Этаж </a>
+            <a href=""> 3 Этаж </a>
+            <a href=""> 4 Этаж </a>
+          </div>
+        </button>
       </div>
     </div>
   </div>
@@ -93,5 +141,6 @@
 </div>
 <script src="js/script.js"></script>
 <script src="js/zoom-function.js"></script>
+<script src="js/map-function.js"></script>
 </body>
 </ht
