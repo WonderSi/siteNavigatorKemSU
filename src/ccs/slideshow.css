@@ -1,0 +1,38 @@
+
+
+
+
+
+
+/* Скрыть изображение по умолчанию */
+.frame1_photo {
+  display: none;
+  min-width: 0px;
+}
+
+
+
+
+
+/* Скрыть изображение по умолчанию */
+.frame2_photo {
+  display: none;
+}
+
+
+
+
+
+/* Скрыть изображение по умолчанию */
+.frame3_photo {
+  display: none;
+}
+
+
+
+
+
+/* Скрыть изображение по умолчанию */
+.frame5_photo {
+  display: none;
+}

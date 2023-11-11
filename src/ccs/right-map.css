@@ -29,6 +29,55 @@
     overflow: hidden;
     max-width: 100vh;
     display: block;
+
+}
+
+.map__frame_HomeStart-frame5:hover{
+    transition: opacity .25s ease;
+    opacity: .75;
+    cursor: pointer;
+}
+
+.map__frame_HomeStart-frame3:hover{
+    transition: opacity .25s ease;
+    opacity: .75;
+    cursor: pointer;
+}
+
+.map__frame_HomeStart-frame2:hover{
+    transition: opacity .25s ease;
+    opacity: .75;
+    cursor: pointer;
+}
+
+.map__frame_HomeStart-frame1:hover{
+    transition: opacity .25s ease;
+    opacity: .75;
+    cursor: pointer;
+}
+
+.map__frame_HomeStart-dormitory3:hover{
+    transition: opacity .25s ease;
+    opacity: .75;
+    cursor: pointer;
+}
+
+.map__frame_HomeStart-dormitory2:hover{
+    transition: opacity .25s ease;
+    opacity: .75;
+    cursor: pointer;
+}
+
+.map__frame_HomeStart-dormitory1:hover{
+    transition: opacity .25s ease;
+    opacity: .75;
+    cursor: pointer;
+}
+
+.map__frame_HomeStart-gym:hover{
+    transition: opacity .25s ease;
+    opacity: .75;
+    cursor: pointer;
 }
 
 .map__frame_31{
