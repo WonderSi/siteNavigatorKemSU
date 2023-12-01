@@ -1,0 +1,59 @@
+.button-slider {
+    position: relative;
+    overflow: hidden;
+    padding: 0 0 0 0;
+    user-select: none;
+    height: 50px;
+}
+.button-slider__wrapper {
+}
+.button-slider__slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-slider__button{
+}
+.button-slider__button button{
+    background-color: #7398F7;
+    border-radius: 50px;
+    border: 1.5px solid;
+    border-color: #3E3BD6;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+.button-slider__button button p{
+    font-size: 15px;
+    font-family: Montserrat, Arial;
+    font-weight: 525;
+    color: white;
+    user-select: none;
+}
+.button-slider__button button:hover > p{
+    color: #3E3BD6; 
+    transition: .5s ease;
+}
+
+/* Стрелки */
+.button-slider .swiper-button-prev,
+.button-slider .swiper-button-next {
+    top: 50%;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+.button-slider .swiper-button-prev::after,
+.button-slider .swiper-button-next::after {
+    top: 50%;
+    color: #3E3BD6;
+    font-size: 25px;
+}
+/* Изменение стрелок при наведении */
+.button-slider .swiper-button-prev:hover,
+.button-slider .swiper-button-next:hover {
+    transition: 0.6s ease;
+    background-color: rgba(0,0,0,0.5);
+}
+.button-slider .swiper-button-next:hover {
+    transform: matrix();
+}

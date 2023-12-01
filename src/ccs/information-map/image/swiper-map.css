@@ -16,15 +16,20 @@
 }
 
 /* Стрелки */
+.image-slider .swiper-button-prev,
+.image-slider .swiper-button-next {
+    top: 50%;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
 .image-slider .swiper-button-prev::after,
 .image-slider .swiper-button-next::after {
-    top: 50%;
     color: #fff;
     font-size: 25px;
 }
 .image-slider .swiper-button-prev:hover,
 .image-slider .swiper-button-next:hover {
-    border-radius: 3px 3px 3px 3px;
     transition: 0.6s ease;
     background-color: rgba(0,0,0,0.5);
 }
@@ -33,7 +38,6 @@
 .image-slider .swiper-pagination {
     position: absolute;
     text-align: center;
-    bottom: 10px;
 }
 /* Буллеты */
 .image-slider .swiper-pagination-bullet{
@@ -41,7 +45,7 @@
     height: 20px;
     line-height: 20px;
     font-size: 14px;
-    border: 1px solid;
-    border-color: white;
-    background-color: #3E3BD6;
+    border: 1.5px solid;
+    border-color: #3E3BD6;
+    background-color: #7398F7;
 }

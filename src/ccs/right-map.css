@@ -15,7 +15,8 @@
     transform: translateX(-209.5px); /*Перемещает карту в левую сторону, чтобы скомпенсировать центральное расположение*/
 }
   
-.map{
+.map {
+    position: relative;
     height: 100vh;
     display: flex;
     overflow: hidden;
@@ -24,102 +25,186 @@
     margin: auto;
 }
   
-.map__frame_HomeStart{
+.map__frame_HomeStart {
     margin: auto;
     overflow: hidden;
     max-width: 100vh;
     display: block;
 
 }
-
 .map__frame_HomeStart-frame5:hover{
     transition: opacity .25s ease;
     opacity: .75;
     cursor: pointer;
 }
 
-.map__frame_HomeStart-frame3:hover{
+.map__frame_HomeStart-frame3:hover {
     transition: opacity .25s ease;
     opacity: .75;
     cursor: pointer;
 }
 
-.map__frame_HomeStart-frame2:hover{
+.map__frame_HomeStart-frame2:hover {
     transition: opacity .25s ease;
     opacity: .75;
     cursor: pointer;
 }
 
-.map__frame_HomeStart-frame1:hover{
+.map__frame_HomeStart-frame1:hover {
     transition: opacity .25s ease;
     opacity: .75;
     cursor: pointer;
 }
 
-.map__frame_HomeStart-dormitory3:hover{
+.map__frame_HomeStart-dormitory3:hover {
     transition: opacity .25s ease;
     opacity: .75;
     cursor: pointer;
 }
 
-.map__frame_HomeStart-dormitory2:hover{
+.map__frame_HomeStart-dormitory2:hover {
     transition: opacity .25s ease;
     opacity: .75;
     cursor: pointer;
 }
 
-.map__frame_HomeStart-dormitory1:hover{
+.map__frame_HomeStart-dormitory1:hover {
     transition: opacity .25s ease;
     opacity: .75;
     cursor: pointer;
 }
 
-.map__frame_HomeStart-gym:hover{
+.map__frame_HomeStart-gym:hover {
     transition: opacity .25s ease;
     opacity: .75;
     cursor: pointer;
 }
 
-.map__frame_31{
+
+
+
+/* Оснвная настройка картинок */
+.map__frame_51 {
     margin: auto;
     overflow: hidden;
     max-width: 60vh;
     display: none;
 }
-.map__frame_32{
+.map__frame_52 {
     margin: auto;
     overflow: hidden;
     max-width: 60vh;
     display: none;
 }
-.map__frame_33{
+.map__frame_53 {
     margin: auto;
     overflow: hidden;
     max-width: 60vh;
     display: none;
 }
-.map__frame_34{
-    margin: auto;
-    overflow: hidden;
-    max-width: 60vh;
-    display: none;
-}
-.map__frame_35{
-    margin: auto;
-    overflow: hidden;
-    max-width: 60vh;
-    display: none;
-}
-.map__frame_36{
+.map__frame_54 {
     margin: auto;
     overflow: hidden;
     max-width: 60vh;
     display: none;
 }
 
+
+
+.map__frame_31 {
+    margin: auto;
+    overflow: hidden;
+    max-width: 60vh;
+    display: none;
+}
+.map__frame_32 {
+    margin: auto;
+    overflow: hidden;
+    max-width: 60vh;
+    display: none;
+}
+.map__frame_33 {
+    margin: auto;
+    overflow: hidden;
+    max-width: 60vh;
+    display: none;
+}
+.map__frame_34 {
+    margin: auto;
+    overflow: hidden;
+    max-width: 60vh;
+    display: none;
+}
+.map__frame_35 {
+    margin: auto;
+    overflow: hidden;
+    max-width: 60vh;
+    display: none;
+}
+.map__frame_36 {
+    margin: auto;
+    overflow: hidden;
+    max-width: 60vh;
+    display: none;
+}
+
+
+
+.map__frame_21 {
+    margin: auto;
+    overflow: hidden;
+    max-width: 100vh;
+    display: none;
+}
 .map__frame_22 {
     margin: auto;
     overflow: hidden;
     max-width: 100vh;
     display: none;
 }
+.map__frame_23 {
+    margin: auto;
+    overflow: hidden;
+    max-width: 100vh;
+    display: none;
+}
+.map__frame_24 {
+    margin: auto;
+    overflow: hidden;
+    max-width: 100vh;
+    display: none;
+}
+
+
+
+.map__frame_11 {
+    margin: auto;
+    overflow: hidden;
+    max-width: 100vh;
+    display: none;
+}
+.map__frame_12 {
+    margin: auto;
+    overflow: hidden;
+    max-width: 100vh;
+    display: none;
+}
+.map__frame_13 {
+    margin: auto;
+    overflow: hidden;
+    max-width: 100vh;
+    display: none;
+}
+.map__frame_14 {
+    margin: auto;
+    overflow: hidden;
+    max-width: 100vh;
+    display: none;
+}
+.map__frame_15 {
+    margin: auto;
+    overflow: hidden;
+    max-width: 100vh;
+    display: none;
+}
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <div id="text-container">
+    <p>
+    This is some text that can be changed.
+  </div>
+  <style>
+    .text-container {
+      font-size: 25px;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      border: 1px solid green;
+    }
+  </style>
+  <script>
+    const n = document.getElementById('text-container')
+    n.addEventListener('click', function() {
+      document.getElementById('text-container').textContent = 'New text';
+    });
+  </script>
+</body>
+</html>

@@ -6,7 +6,7 @@ function zoom() {
 	if(maxZoom < 5) {
 		maxZoom += 1;
 		if(maxZoom == 5){
-			zoomedImage.style.transform = "scale(1.4)";
+			zoomedImage.style.transform = "scale(2)";
 			zoomedImage.style.transition = "transform 0.25s ease";
 		}
 		if(maxZoom == 4){
@@ -32,7 +32,7 @@ function notzum() {
 	if(maxZoom > 1) {
 		maxZoom -= 1;
 		if(maxZoom == 5){
-			zoomedImage.style.transform = "scale(1.4)";
+			zoomedImage.style.transform = "scale(2)";
 			zoomedImage.style.transition = "transform 0.25s ease";
 		}
 		if(maxZoom == 4){

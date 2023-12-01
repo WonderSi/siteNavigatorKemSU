@@ -1,13 +1,6 @@
-
-
-
-
-
-
 /* Скрыть изображение по умолчанию */
 .frame1_photo {
   display: none;
-  min-width: 0px;
 }
 
 
