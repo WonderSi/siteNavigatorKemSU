@@ -32,16 +32,12 @@
       <div class="menu-left__top">
 
         <!--Поисковое окно сверху в левом меню-->
-        <form class="menu-left__top__search">
+        <form action="" class="menu-left__top__search" method="post">
+          <label class="search-label" for="search-id"></label>
+          <input type="search" name="search" placeholder="Поиск по навигатору" value="" id="search-id">
 
-          <input type="search" name="search" placeholder="Поиск по навигатору">
-          
-          
-          
-          
-          
-          <button type="submit" name="submit">
-              <iconify-icon class="submit__search_icons" icon="bx:search"></iconify-icon>
+          <button  type="submit" name="submit"  onclick="SaveInput()">
+            <iconify-icon class="submit__search_icons" icon="bx:search"></iconify-icon>
           </button>
 
         </form>
@@ -1271,6 +1267,7 @@
 <script src="js/information-map/swiper-map-function.js"></script><!-- Путь к дополнительному js. Настройка слайдшоу картинок в левом меню -->
 <script src="js/information-map/swiper-button-function.js"></script><!-- Путь к дополнительному js. Найстройка слайдшоу кнопок этажей в левом меню -->
 <script src="js/name-frame.js"></script>
+<script src="js/search-function.js"></script>
 
 </body>
 </html>
