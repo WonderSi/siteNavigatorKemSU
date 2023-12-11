@@ -19,39 +19,18 @@ const button_13_right = document.getElementById('frame-bth__box__block13(right)'
 const button_12_right = document.getElementById('frame-bth__box__block12(right)');
 const button_11_right = document.getElementById('frame-bth__box__block11(right)');
 
-const image_frame_Home_right = document.getElementById('map__frame_HomeStart');
-const image_frame_54_right = document.getElementById('map__frame_54');
-const image_frame_53_right = document.getElementById('map__frame_53');
-const image_frame_52_right = document.getElementById('map__frame_52');
-const image_frame_51_right = document.getElementById('map__frame_51');
-const image_frame_36_right = document.getElementById('map__frame_36');
-const image_frame_35_right = document.getElementById('map__frame_35');
-const image_frame_34_right = document.getElementById('map__frame_34');
-const image_frame_33_right = document.getElementById('map__frame_33');
-const image_frame_32_right = document.getElementById('map__frame_32');
-const image_frame_31_right = document.getElementById('map__frame_31');
-const image_frame_24_right = document.getElementById('map__frame_24');
-const image_frame_23_right = document.getElementById('map__frame_23');
-const image_frame_22_right = document.getElementById('map__frame_22');
-const image_frame_21_right = document.getElementById('map__frame_21');
-const image_frame_15_right = document.getElementById('map__frame_15');
-const image_frame_14_right = document.getElementById('map__frame_14');
-const image_frame_13_right = document.getElementById('map__frame_13');
-const image_frame_12_right = document.getElementById('map__frame_12');
-const image_frame_11_right = document.getElementById('map__frame_11');
-
 
 
 
 
 function notHome() {
-  image_frame_Home_right.style.display = 'none';
+  image_frame_Home.style.display = 'none';
 }
 function notBlock5() {
-  image_frame_51_right.style.display = 'none';
-  image_frame_52_right.style.display = 'none';
-  image_frame_53_right.style.display = 'none';
-  image_frame_54_right.style.display = 'none';
+  image_frame_51.style.display = 'none';
+  image_frame_52.style.display = 'none';
+  image_frame_53.style.display = 'none';
+  image_frame_54.style.display = 'none';
 }
 function notBlock3() {
   image_frame_31.style.display = 'none';
@@ -96,7 +75,7 @@ button_51_right.addEventListener('click', function() {
   notBlock2();
   notBlock3();
   notBlock5();
-  image_frame_51_right.style.display = 'block';
+  image_frame_51.style.display = 'block'
 })
 button_52_right.addEventListener('click', function() {
   notHome();

@@ -151,13 +151,13 @@
     box-shadow: 0px 0.5px 2px 0px rgba(0, 0, 0, 0.25);
     z-index: 1;
 }
-.frame-bth__box__block2-content a {
+.frame-bth__box__block2-content div {
     color: #7C8393;
     padding: 11px 16px;
     text-decoration: none;
     display: block;
 }
-.frame-bth__box__block2-content a:hover {color: DeepSkyBlue;}
+.frame-bth__box__block2-content div:hover {color: DeepSkyBlue;}
 
 .frame__box__block2:hover .frame-bth__box__block2-content {display: block;}
 
@@ -192,13 +192,13 @@
     box-shadow: 0px 0.5px 2px 0px rgba(0, 0, 0, 0.25);
     z-index: 1;
 }
-.frame-bth__box__block1-content a {
+.frame-bth__box__block1-content div {
     color: #7C8393;
     padding: 11px 16px;
     text-decoration: none;
     display: block;
 }
-.frame-bth__box__block1-content a:hover {color: DeepSkyBlue;}
+.frame-bth__box__block1-content div:hover {color: DeepSkyBlue;}
 
 .frame__box__block1:hover .frame-bth__box__block1-content {display: block;}
 

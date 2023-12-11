@@ -20,6 +20,26 @@ const button_13 = document.getElementById('frame-bth__box__block13');
 const button_12 = document.getElementById('frame-bth__box__block12');
 const button_11 = document.getElementById('frame-bth__box__block11');
 
+const button_54_right = document.getElementById('frame-bth__box__block54(right)');
+const button_53_right = document.getElementById('frame-bth__box__block53(right)');
+const button_52_right = document.getElementById('frame-bth__box__block52(right)');
+const button_51_right = document.getElementById('frame-bth__box__block51(right)');
+const button_36_right = document.getElementById('frame-bth__box__block36(right)');
+const button_35_right = document.getElementById('frame-bth__box__block35(right)');
+const button_34_right = document.getElementById('frame-bth__box__block34(right)');
+const button_33_right = document.getElementById('frame-bth__box__block33(right)');
+const button_32_right = document.getElementById('frame-bth__box__block32(right)');
+const button_31_right = document.getElementById('frame-bth__box__block31(right)');
+const button_24_right = document.getElementById('frame-bth__box__block24(right)');
+const button_23_right = document.getElementById('frame-bth__box__block23(right)');
+const button_22_right = document.getElementById('frame-bth__box__block22(right)');
+const button_21_right = document.getElementById('frame-bth__box__block21(right)');
+const button_15_right = document.getElementById('frame-bth__box__block15(right)');
+const button_14_right = document.getElementById('frame-bth__box__block14(right)');
+const button_13_right = document.getElementById('frame-bth__box__block13(right)');
+const button_12_right = document.getElementById('frame-bth__box__block12(right)');
+const button_11_right = document.getElementById('frame-bth__box__block11(right)');
+
 const image_frame_Home = document.getElementById('map__frame_HomeStart');
 const image_frame_54 = document.getElementById('map__frame_54');
 const image_frame_53 = document.getElementById('map__frame_53');
@@ -90,15 +110,17 @@ button_Home.addEventListener('click', function() {
 });
 
 
-if (button_51 != null) {
+
 button_51.addEventListener('click', function() {
   notHome();
   notBlock1();
   notBlock2();
   notBlock3();
   notBlock5();
+  notVisible();
   image_frame_51.style.display = 'block';
-})}
+  frame5_photo.style.display = 'block';
+})
 button_52.addEventListener('click', function() {
   notHome();
   notBlock1();

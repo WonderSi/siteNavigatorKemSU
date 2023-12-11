@@ -29,7 +29,7 @@
     margin: auto;
     overflow: hidden;
     max-width: 100vh;
-    display: block;
+    display: none;
 
 }
 .map__frame_HomeStart-frame5:hover{
