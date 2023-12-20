@@ -399,7 +399,7 @@ button_11_right.addEventListener('click', function() {
   notBlock5();
   notVisible();
   image_frame_11.style.display = 'block';
-  frame1_photo.style.display = 'blcok'
+  frame1_photo.style.display = 'block';
 })
 
 button_12.addEventListener('click', function() {
@@ -418,7 +418,7 @@ button_12_right.addEventListener('click', function() {
   notBlock5();
   notVisible();
   image_frame_12.style.display = 'block';
-  frame1_photo.style.display = 'blcok'
+  frame1_photo.style.display = 'block';
 })
 
 button_13.addEventListener('click', function() {
@@ -437,9 +437,8 @@ button_13_right.addEventListener('click', function() {
   notBlock5();
   notVisible();
   image_frame_13.style.display = 'block';
-  frame1_photo.style.display = 'blcok'
+  frame1_photo.style.display = 'block';
 })
-
 
 button_14.addEventListener('click', function() {
   notHome();
@@ -457,7 +456,7 @@ button_14_right.addEventListener('click', function() {
   notBlock5();
   notVisible();
   image_frame_14.style.display = 'block';
-  frame1_photo.style.display = 'blcok'
+  frame1_photo.style.display = 'block';
 })
 
 button_15.addEventListener('click', function() {
@@ -476,5 +475,5 @@ button_15_right.addEventListener('click', function() {
   notBlock5();
   notVisible();
   image_frame_15.style.display = 'block';
-  frame1_photo.style.display = 'blcok'
+  frame1_photo.style.display = 'block';
 })
