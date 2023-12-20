@@ -117,10 +117,19 @@ button_51.addEventListener('click', function() {
   notBlock2();
   notBlock3();
   notBlock5();
+  image_frame_51.style.display = 'block';
+})
+button_51_right.addEventListener('click', function() {
+  notHome();
+  notBlock1();
+  notBlock2();
+  notBlock3();
+  notBlock5();
   notVisible();
   image_frame_51.style.display = 'block';
   frame5_photo.style.display = 'block';
 })
+
 button_52.addEventListener('click', function() {
   notHome();
   notBlock1();
@@ -129,17 +138,36 @@ button_52.addEventListener('click', function() {
   notBlock5();
   image_frame_52.style.display = 'block';
 })
+button_52_right.addEventListener('click', function() {
+  notHome();
+  notBlock1();
+  notBlock2();
+  notBlock3();
+  notBlock5();
+  notVisible();
+  image_frame_52.style.display = 'block';
+  frame5_photo.style.display = 'block';
+})
+
 button_53.addEventListener('click', function() {
   notHome();
   notBlock1();
   notBlock2();
   notBlock3();
   notBlock5();
-  image_frame_51.style.display = 'none';
-  image_frame_52.style.display = 'none';
   image_frame_53.style.display = 'block';
-  image_frame_54.style.display = 'none';
 })
+button_53_right.addEventListener('click', function() {
+  notHome();
+  notBlock1();
+  notBlock2();
+  notBlock3();
+  notBlock5();
+  notVisible();
+  image_frame_53.style.display = 'block';
+  frame5_photo.style.display = 'block';
+})
+
 button_54.addEventListener('click', function() {
   notHome();
   notBlock1();
@@ -147,6 +175,16 @@ button_54.addEventListener('click', function() {
   notBlock3();
   notBlock5();
   image_frame_54.style.display = 'block';
+})
+button_54_right.addEventListener('click', function() {
+  notHome();
+  notBlock1();
+  notBlock2();
+  notBlock3();
+  notBlock5();
+  notVisible();
+  image_frame_54.style.display = 'block';
+  frame5_photo.style.display = 'block';
 })
 
 
@@ -159,6 +197,17 @@ button_36.addEventListener('click', function() {
   notBlock5();
   image_frame_36.style.display = 'block';
 })
+button_36_right.addEventListener('click', function() {
+  notHome();
+  notBlock1();
+  notBlock2();
+  notBlock3();
+  notBlock5();
+  notVisible();
+  image_frame_36.style.display = 'block';
+  frame3_photo.style.display = 'block';
+})
+
 button_35.addEventListener('click', function() {
   notHome();
   notBlock1();
@@ -167,6 +216,17 @@ button_35.addEventListener('click', function() {
   notBlock5();
   image_frame_35.style.display = 'block';
 })
+button_35_right.addEventListener('click', function() {
+  notHome();
+  notBlock1();
+  notBlock2();
+  notBlock3();
+  notBlock5();
+  notVisible();
+  image_frame_35.style.display = 'block';
+  frame3_photo.style.display = 'block';
+})
+
 button_34.addEventListener('click', function() {
   notHome();
   notBlock1();
@@ -175,6 +235,17 @@ button_34.addEventListener('click', function() {
   notBlock5();
   image_frame_34.style.display = 'block';
 })
+button_34_right.addEventListener('click', function() {
+  notHome();
+  notBlock1();
+  notBlock2();
+  notBlock3();
+  notBlock5();
+  notVisible();
+  image_frame_34.style.display = 'block';
+  frame3_photo.style.display = 'block';
+})
+
 button_33.addEventListener('click', function() {
   notHome();
   notBlock1();
@@ -183,6 +254,17 @@ button_33.addEventListener('click', function() {
   notBlock5();
   image_frame_33.style.display = 'block';
 })
+button_33_right.addEventListener('click', function() {
+  notHome();
+  notBlock1();
+  notBlock2();
+  notBlock3();
+  notBlock5();
+  notVisible();
+  image_frame_33.style.display = 'block';
+  frame3_photo.style.display = 'block';
+})
+
 button_32.addEventListener('click', function() {
   notHome();
   notBlock1();
@@ -191,6 +273,17 @@ button_32.addEventListener('click', function() {
   notBlock5();
   image_frame_32.style.display = 'block';
 })
+button_32_right.addEventListener('click', function() {
+  notHome();
+  notBlock1();
+  notBlock2();
+  notBlock3();
+  notBlock5();
+  notVisible();
+  image_frame_32.style.display = 'block';
+  frame3_photo.style.display = 'block';
+})
+
 button_31.addEventListener('click', function() {
   notHome();
   notBlock1();
@@ -198,7 +291,17 @@ button_31.addEventListener('click', function() {
   notBlock3();
   notBlock5();
   image_frame_31.style.display = 'block';
-});
+})
+button_31_right.addEventListener('click', function() {
+  notHome();
+  notBlock1();
+  notBlock2();
+  notBlock3();
+  notBlock5();
+  notVisible();
+  image_frame_31.style.display = 'block';
+  frame3_photo.style.display = 'block';
+})
 
 
 
@@ -210,6 +313,17 @@ button_21.addEventListener('click', function() {
   notBlock5();
   image_frame_21.style.display = 'block';
 })
+button_21_right.addEventListener('click', function() {
+  notHome();
+  notBlock1();
+  notBlock2();
+  notBlock3();
+  notBlock5();
+  notVisible();
+  image_frame_21.style.display = 'block';
+  frame2_photo.style.display = 'block';
+})
+
 button_22.addEventListener('click', function() {
   notHome();
   notBlock1();
@@ -218,6 +332,17 @@ button_22.addEventListener('click', function() {
   notBlock5();
   image_frame_22.style.display = 'block';
 })
+button_22_right.addEventListener('click', function() {
+  notHome();
+  notBlock1();
+  notBlock2();
+  notBlock3();
+  notBlock5();
+  notVisible();
+  image_frame_22.style.display = 'block';
+  frame2_photo.style.display = 'block';
+})
+
 button_23.addEventListener('click', function() {
   notHome();
   notBlock1();
@@ -226,6 +351,17 @@ button_23.addEventListener('click', function() {
   notBlock5();
   image_frame_23.style.display = 'block';
 })
+button_23_right.addEventListener('click', function() {
+  notHome();
+  notBlock1();
+  notBlock2();
+  notBlock3();
+  notBlock5();
+  notVisible();
+  image_frame_23.style.display = 'block';
+  frame2_photo.style.display = 'block';
+})
+
 button_24.addEventListener('click', function() {
   notHome();
   notBlock1();
@@ -233,6 +369,16 @@ button_24.addEventListener('click', function() {
   notBlock3();
   notBlock5();
   image_frame_24.style.display = 'block';
+})
+button_24_right.addEventListener('click', function() {
+  notHome();
+  notBlock1();
+  notBlock2();
+  notBlock3();
+  notBlock5();
+  notVisible();
+  image_frame_24.style.display = 'block';
+  frame2_photo.style.display = 'block';
 })
 
 
@@ -245,6 +391,17 @@ button_11.addEventListener('click', function() {
   notBlock5();
   image_frame_11.style.display = 'block';
 })
+button_11_right.addEventListener('click', function() {
+  notHome();
+  notBlock1();
+  notBlock2();
+  notBlock3();
+  notBlock5();
+  notVisible();
+  image_frame_11.style.display = 'block';
+  frame1_photo.style.display = 'blcok'
+})
+
 button_12.addEventListener('click', function() {
   notHome();
   notBlock1();
@@ -253,6 +410,17 @@ button_12.addEventListener('click', function() {
   notBlock5();
   image_frame_12.style.display = 'block';
 })
+button_12_right.addEventListener('click', function() {
+  notHome();
+  notBlock1();
+  notBlock2();
+  notBlock3();
+  notBlock5();
+  notVisible();
+  image_frame_12.style.display = 'block';
+  frame1_photo.style.display = 'blcok'
+})
+
 button_13.addEventListener('click', function() {
   notHome();
   notBlock1();
@@ -261,6 +429,18 @@ button_13.addEventListener('click', function() {
   notBlock5();
   image_frame_13.style.display = 'block';
 })
+button_13_right.addEventListener('click', function() {
+  notHome();
+  notBlock1();
+  notBlock2();
+  notBlock3();
+  notBlock5();
+  notVisible();
+  image_frame_13.style.display = 'block';
+  frame1_photo.style.display = 'blcok'
+})
+
+
 button_14.addEventListener('click', function() {
   notHome();
   notBlock1();
@@ -269,11 +449,32 @@ button_14.addEventListener('click', function() {
   notBlock5();
   image_frame_14.style.display = 'block';
 })
+button_14_right.addEventListener('click', function() {
+  notHome();
+  notBlock1();
+  notBlock2();
+  notBlock3();
+  notBlock5();
+  notVisible();
+  image_frame_14.style.display = 'block';
+  frame1_photo.style.display = 'blcok'
+})
+
 button_15.addEventListener('click', function() {
   notHome();
   notBlock1();
   notBlock2();
   notBlock3();
   notBlock5();
+  image_frame_1x.style.display = 'block';
+})
+button_15_right.addEventListener('click', function() {
+  notHome();
+  notBlock1();
+  notBlock2();
+  notBlock3();
+  notBlock5();
+  notVisible();
   image_frame_15.style.display = 'block';
+  frame1_photo.style.display = 'blcok'
 })
