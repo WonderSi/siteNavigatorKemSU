@@ -21,8 +21,6 @@ const button_11_right = document.getElementById('frame-bth__box__block11(right)'
 
 
 
-
-
 function notHome() {
   image_frame_Home.style.display = 'none';
 }
