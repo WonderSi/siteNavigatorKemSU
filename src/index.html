@@ -660,24 +660,24 @@
 
                   var div = document.getElementById('map__frame_HomeStart');
 
-                  //The following block gets the X offset (the difference between where it starts and where it was clicked)
+                  //Следующий блок получает смещение X (разницу между тем, где он начинается, и тем, где на него был нажат)
                   let leftPart = "";
                   if(!div.style.left)
-                      leftPart+="0px";    //In case this was not defined as 0px explicitly.
+                      leftPart+="0px";    //В случае, если это не было определено как 0px явно.
                   else
                       leftPart = div.style.left;
                   let leftPos = leftPart.indexOf("px");
-                  let leftNumString = leftPart.slice(0, leftPos); // Get the X value of the object.
+                  let leftNumString = leftPart.slice(0, leftPos); // Получите значение X объекта.
                   gMouseDownOffsetX = gMouseDownX - parseInt(leftNumString,10);
 
-                  //The following block gets the Y offset (the difference between where it starts and where it was clicked)
+                  //Tследующий блок получает смещение по Y (разницу между тем, где он начинается, и тем, где на него был нажат)
                   let topPart = "";
                   if(!div.style.top)
-                      topPart+="0px";     //In case this was not defined as 0px explicitly.
+                      topPart+="0px";     //В случае, если это не было определено как 0px явно.
                   else
                       topPart = div.style.top;
                   let topPos = topPart.indexOf("px");
-                  let topNumString = topPart.slice(0, topPos);    // Get the Y value of the object.
+                  let topNumString = topPart.slice(0, topPos);    // Получите значение Y объекта.
                   gMouseDownOffsetY = gMouseDownY - parseInt(topNumString,10);
 
                   window.addEventListener('mousemove', divMove, true);
@@ -10124,15 +10124,14 @@
 
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script> <!-- Добавление иконок с сайта -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> <!--Подключение сторонней библиотеки Swiper. Для гибкого настраивания сайта-->
-<script src="js/main-function.js"></script><!-- Путь к основному js. Открывание и закрывание левого меню -->
+<script src="js/arrow-function.js"></script><!-- Путь к основному js. Открывание и закрывание левого меню -->
 <script src="js/zoom-function.js"></script><!-- Путь к дополнительному js. Увеличение и отдаление карты -->
-<script src="js/map_visible-function(left-menu).js"></script><!-- Путь к дополнительному js. Включение / Отключение видимости карты при их переключении-->
-<script src="js/map_visible-function(right-menu).js"></script><!-- Путь к дополнительному js. Включение / Отключение видимости карты при их переключении-->
-<script src="js/map_object-function.js"></script><!-- Путь к дополнительному js. Включение / Отключение видимости картинок в левом меню, в зависимости от того, на что нажмут на карте -->
+<script src="js/map-frame-floor_visible-function.js"></script><!-- Путь к дополнительному js. Включение / Отключение видимости карты при их переключении-->
+<script src="js/map-frame_object-function.js"></script><!-- Путь к дополнительному js. Включение / Отключение видимости картинок в левом меню, в зависимости от того, на что нажмут на карте -->
 <script src="js/information-map/swiper-map-function.js"></script><!-- Путь к дополнительному js. Настройка слайдшоу картинок в левом меню -->
 <script src="js/information-map/swiper-button-function.js"></script><!-- Путь к дополнительному js. Найстройка слайдшоу кнопок этажей в левом меню -->
-<script src="js/name-frame.js"></script>
-<script src="js/search-function.js"></script>
+<script src="js/information-map/name-frame-swiper.js"></script><!-- Путь к дополнительному js. Изменение названия этажа, в зависимости от того, какая карта открыта на сайте -->
+<script src="js/search-function.js"></script><!-- Путь к дополнительному js. Поисковая система этажей -->
 
 </body>
 </html>
